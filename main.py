@@ -6,9 +6,9 @@ import random_responses
 # Load JSON data
 def load_json(file):
     with open(file) as bot_responses:
-        print(f"Loaded '{file}' successfully!")
+        print("Hello. How may I help you?")
         return json.load(bot_responses)
-        
+
 # Store JSON data
 response_data = load_json("bot.json")
 

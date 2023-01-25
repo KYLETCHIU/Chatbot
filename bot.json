@@ -24,6 +24,12 @@
       "required_words": ["text", "can't", "image"]
     },
     {
+        "response_type": "question",
+        "user_input": ["can", "you", "learn"],
+        "bot_response": "I can learn whatever Homer teaches me.",
+        "required_words": ["you", "learn"]
+      },
+    {
       "response_type": "question",
       "user_input": ["what", "is", "a", "pip"],
       "bot_response": "A PIP is a product information page. PIP template creatives use product silhouette immages.",
